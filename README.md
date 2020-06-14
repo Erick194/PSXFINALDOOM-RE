@@ -1,6 +1,6 @@
 # PSXFINALDOOM-RE
 
-Welcome to the complete reverse engineering of PSX Final Doom by [GEC], this effort took about 2 and a half years and 4 months after the release of the PSXDOOM-RE source code to complete, This is practically PsxDoom but updated for Final Doom, one of the great differences of both games was the mouse support that included Final Doom.
+Welcome to the complete reverse engineering of PSX Final Doom by [GEC], this effort took about 2 and a half years and 4 months after the release of the **[PSXDOOM-RE](https://github.com/Erick194/PSXDOOM-RE)** source code to complete, This is practically PsxDoom but updated for Final Doom, one of the great differences of both games was the mouse support that included Final Doom.
 
 This will be of great help to the project **[PsyDoom](https://github.com/BodbDearg/PsyDoom)** with the advantage of being updated soon with Psx Final Doom.
 
@@ -34,4 +34,4 @@ News:
 * No clip cheat code from PsyDoom.
 * VRAM Viewer added from Master Edition PsxDoom.
 * FPS Counter that can be deactivate/activate in the code itself.
-* Various bug fixes that have been included in **[PSXDoom-RE](https://github.com/Erick194/PSXDOOM-RE)**
+* Various bug fixes that have been included in **[PSXDOOM-RE](https://github.com/Erick194/PSXDOOM-RE)**
