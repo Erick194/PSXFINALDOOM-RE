@@ -802,14 +802,14 @@ void P_Init (void)//L8002329C()
 	sd = sides;
 	for (i = 0; i < numsides; i++, sd++)
 	{
-		if (sides->toptexture == -1)
-			sides->toptexture = 0;
+		if (sd->toptexture == -1)
+			sd->toptexture = 0;
 
-		if (sides->midtexture == -1)
-			sides->midtexture = 0;
+		if (sd->midtexture == -1)
+			sd->midtexture = 0;
 
-		if (sides->bottomtexture == -1)
-			sides->bottomtexture = 0;
+		if (sd->bottomtexture == -1)
+			sd->bottomtexture = 0;
 	}
 
 	//V_pages
