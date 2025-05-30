@@ -955,7 +955,7 @@ unsigned int Get_CfgCode(unsigned int *cfgdata)//L80035330()
 
 unsigned int *Get_CfgByCode(unsigned int cfgcode)//L80035394()
 {
-    unsigned int *tmpcfg;
+	unsigned int *tmpcfg;
 	unsigned int *newcfg;
 	unsigned int i, code;
 
@@ -964,8 +964,8 @@ unsigned int *Get_CfgByCode(unsigned int cfgcode)//L80035394()
 
 	for(i = 0; i < 8; i++)
 	{
-        code += (((cfgcode >> (i << 2))));
-        *newcfg++ = *(tmpcfg + (code & 15));
+        code = (cfgcode >> (i << 2)) & 0xF;
+        *newcfg++ = *(tmpcfg + code);
 	}
 
 	return NewConfiguration;
